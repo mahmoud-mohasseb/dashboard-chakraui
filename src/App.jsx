@@ -16,11 +16,11 @@ import { useState } from "react";
 function App() {
   return (
     <div className="App">
-      {/* <BrowserRouter>
+      <BrowserRouter>
         <Routes>
           <Route path="/" element={<Login />} />
         </Routes>
-      </BrowserRouter> */}
+      </BrowserRouter>
 
       <Grid
         templateAreas={`"header header"
@@ -39,7 +39,7 @@ function App() {
         <BrowserRouter>
           <GridItem area={"main"}>
             <Routes>
-              {/* <Route path="/" element={<Login />} /> */}
+              <Route path="/" element={<Login />} />
               <Route path="/Home" element={<Home />} />
               <Route path="/Users" element={<Users />} />
               <Route path="/EditUser" element={<EditUser />} />
